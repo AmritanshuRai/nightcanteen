@@ -224,13 +224,14 @@ figure img:hover {
 .meals-showcase figure .text {
     position: absolute;
 
- 
+
   color: #fff;
     
 
 }
 .meals-showcase figure:hover .text {
     visibility: hidden;
+    color: transparent;
     transition: all 0.5s;
     
 
