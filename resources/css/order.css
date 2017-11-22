@@ -2,7 +2,7 @@ header {
     
      background-image:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(./img/hero.jpg);
     
-     height: 100vh;
+     height: 120vh;
      background-size: cover;
      background-position: center;
  }
@@ -10,7 +10,7 @@ header {
 
 h1{
     font-size: 30px;
-    color: #fff;
+    color: #fff; 
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
@@ -74,11 +74,32 @@ h1{
   outline: none;
 
 }
-
-
-
 .bill-button{
-  display: block;
-  margin: 15px auto;
+  display: inline-block;
+ margin-top: 20px;
+  width: 100%;
+  text-align: center;
 }
+
+.bill-form {
+  margin: 50px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.bill-form .input {
+  border-radius: 10%;
+  width: 500px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.whatsapp {
+margin-top: 30px;
+
+}
+
+
  
