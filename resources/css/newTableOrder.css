@@ -1,0 +1,210 @@
+body {
+    font-family: "Lato", "Arial","sans-serif";
+    line-height: 1.25;
+  }
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+    color: #e67e22;
+  }
+  table tr {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+   background:  rgba(230,126,34,0.2);
+  }
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+    table caption {
+      font-size: 1.3em;
+    }
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+
+    }
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    table td:before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .total {
+      width: 90%;
+
+      margin: 0 auto;
+      margin-top: 1%;
+      background: rgba(230,126,34,0.2);
+  }
+
+  .total p {
+      display: inline-block;
+}
+
+ .firstText{
+     width: 32%;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 140%;
+    font-weight: 500;
+    padding-left: 1%;
+}
+
+
+
+ .secoundText{
+    width: 32%;
+    text-align: center;
+    font-size: 80%;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.thirdText{
+    width: 32%;
+    text-align:right;
+    vertical-align: middle;
+    font-size: 140%;
+    font-weight: 500;
+    padding-right: 1%;
+}
+
+.orderId {
+    width: 50%;
+    border: 1px solid rgba(230,126,34,0.3);
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.orderId p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.orderId p span {
+    color: rgb(230,126,34);
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .total {
+        width: 100%;
+  
+        margin: 0 auto;
+        margin-top: 0.5%;
+        background: rgba(230,126,34,0.2);
+    }
+  
+    .total p {
+        display: inline-block;
+  }
+  
+   .firstText{
+   
+      font-size: 110%;
+ 
+  }
+  
+  
+  
+   .secoundText{
+
+      font-size: 60%;
+    
+  }
+  
+  .thirdText{
+    
+      font-size: 110%;
+
+  }
+
+  .orderId {
+    width: 95%;
+    border: 1px solid rgba(230,126,34,0.3);
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.orderId p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+.orderId p span {
+    color: rgb(230,126,34);
+}
+
+}
+
+@media screen and (max-width: 575px) {
+    .firstText{
+        
+           width: 25%;
+      
+       }
+       
+       
+       
+        .secoundText{
+     
+            width: 25%;
+         
+       }
+       
+       .thirdText{
+         
+        width:42%;
+     
+       }
+}

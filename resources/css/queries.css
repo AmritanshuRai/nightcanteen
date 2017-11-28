@@ -227,8 +227,13 @@
 }
 
 
-    
-    
 
-    
+}
+
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+        display: block;
+        margin: 0;
+	}
 }
